@@ -1,0 +1,16 @@
+{
+  "name": "parcel-config",
+  "version": "1.0.0",
+  "source": "./src/index.html",
+  "dependencies": {
+    "parcel": "^2.3.2"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open --lazy",
+    "build": "parcel build",
+    "predeploy": "npm run build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2"
+  }
+}
